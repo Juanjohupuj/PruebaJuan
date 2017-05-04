@@ -40,5 +40,13 @@ def distancia(Kilometros, Gasolina):
     while(galones>rendimiento and distancia>rendimiento):
         ditancia= distancia* (1/2*galones-1)
         rendimiento = rendimiento +distancia
+#3
+def Tablas(Número):
+    """
+    Esta funcion imprime las tablas de el número dado por parámetros
+    """
 
+    for Variable in range(0,10):
+            print (Número,"x",Variable,"=",Número * Variable)
         return distancia
+    
