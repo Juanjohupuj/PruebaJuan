@@ -27,3 +27,18 @@ def usura(valor, interes, numcuotas):
     print(int_acumulado)
 
 usura(100000,3, 9)
+#2
+def distancia(Kilometros, Gasolina):
+    """
+    Kilómetros representa los km recorridos
+    La Gasolina respresenta la Gasolina Utilizada para recorrer dichos kilómetros
+    """
+    distancia=Kilometros
+    galones=Gasolina
+    rendimiento=0
+
+    while(galones>rendimiento and distancia>rendimiento):
+        ditancia= distancia* (1/2*galones-1)
+        rendimiento = rendimiento +distancia
+
+        return distancia
